@@ -1,0 +1,42 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:400px;
+}
+
+.form-container input{
+    margin-top: 50px;
+    width: 350px;                           
+    font-size: 16px;
+}
+
+button{
+    margin-top:100px;
+    margin-left:110px;
+    width:200px;
+    height:30px;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+button#toplama{
+    background-color: blue;
+}
+button#cixma{
+    background-color: red;
+}
+button#vurma{
+    background-color: green;
+}
+button#bolme{
+    background-color: yellow;
+    color:black;
+}
+
+input#result{
+    margin-top:80px;
+    margin-left:500px;
+    width:400px;
+    height:20px;
+}
