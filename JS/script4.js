@@ -10,8 +10,8 @@ box.ondragend=function(){
 box.ondrag=function(){
 
 }
-area.ondragenter=function(){
-   
+area.ondragenter=function(ev){
+   ev.preventDeault();
 }
 area.ondragover=function(ev){
     ev.preventDeault();
